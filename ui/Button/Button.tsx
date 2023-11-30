@@ -7,7 +7,8 @@ type ButtonProps = {
 function Button({children}: ButtonProps) {
     return (
         <button style={{
-            background: 'blue',
+            background: 'red',
+            border:'none',
             padding: '10px 20px',
             color: 'white',
             borderRadius: 10,
